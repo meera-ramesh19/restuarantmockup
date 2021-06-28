@@ -461,4 +461,48 @@ width:100%;
   margin:32% -26%;
 }
 
- 
+  /****MEDIA QUERIES***/
+
+@media (min-width: 1201px) and (max-width: 3000px){
+  .logo{
+    display: none;
+  }
+}
+
+@media (max-width: 1200px){
+  .logo{
+    display: static;
+  }
+  .nav-bar{
+    display: none;
+  }
+  .welcome-search, header .welcome-search{
+    width: 100%;
+  }
+  .discover, .cuisine-image, .daily-hours, .test-section{
+    padding: 5% 8% 10% 8%;
+  }
+  .phone address{
+    padding: 0 15% 2% 15%;
+  }
+  .left-arrow, .carousel-book, .right-arrow{
+    display: none;
+  }
+  p{
+    font-size: 15px;
+  }
+  h1{
+    font-size: 8rem;
+  }
+  h3{
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 900px){
+
+  p{
+    font-size: 15px;
+  }
+}
+
